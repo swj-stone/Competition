@@ -1,1 +1,1 @@
-# IMC2026PROBLEM-B
+# Competition
