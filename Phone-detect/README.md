@@ -1,4 +1,4 @@
-# PhoneGuard-P2：考场手机检测
+# [PhoneGuard-P2：考场手机检测](https://github.com/swj-stone/phone-detect)
 
 **中文** | [English](README_EN.md)
 
