@@ -1,4 +1,4 @@
-# PhoneGuard-P2: Mobile Phone Detection for Exam Monitoring
+# [PhoneGuard-P2: Mobile Phone Detection for Exam Monitoring](https://github.com/swj-stone/phone-detect)
 
 [中文](README.md) | **English**
 
