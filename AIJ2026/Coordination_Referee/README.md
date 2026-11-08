@@ -103,4 +103,4 @@ python reproduce.py run --profile archive-default --train platform/train.csv --t
 | [Launcher](reproduce.py) · [dependencies](requirements.txt) | Integrity check, extraction, execution and output validation. |
 | [Data preparation](tools/prepare_demo.py) · [smoke split](examples/make_smoke.py) · [local scoring](tools/score_local.py) | Offline tools; no dependency on the parent workspace. |
 
-For sharing on GitHub, keep the original ZIP intact and deliver it via a Release asset or Git LFS. A Release download belongs at `assets/submission_v84b_v81_lm2.zip`. If a checkout contains an LFS pointer instead of the archive, `verify` will reject it.
+For sharing on GitHub, keep the original ZIP intact and deliver it via a Release asset or Git LFS. A Release download belongs at `assets/submission_v84b_v81_lm2.zip`(safetensor is so big to removed here). If a checkout contains an LFS pointer instead of the archive, `verify` will reject it.
