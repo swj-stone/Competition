@@ -1,0 +1,8 @@
+{
+  "source": "Official server result supplied by the participant",
+  "score": 0.94328,
+  "macro_f1": 0.94406,
+  "robustness_f1": 0.94326,
+  "success_f1": 0.94827,
+  "fault_turn_hit2": 0.93194
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 35,
+  "true_faults": 30,
+  "hits": 28,
+  "macro_f1": 0.9105339105339105,
+  "success_f1": 1.0,
+  "joint_hit_at_2": 0.9333333333333333,
+  "local_K": 0.6986002886002887,
+  "official_robustness_f1": null,
+  "official_score": null
+}

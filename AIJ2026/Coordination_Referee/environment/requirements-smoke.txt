@@ -1,0 +1,20 @@
+# Alternate environment for the public-data GPU smoke example (Windows x86-64).
+# In a separate, clean CPython 3.13.9 environment, install in this order:
+# python -m pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cu128
+# python -m pip install -r environment/requirements-smoke.txt
+# Do not combine this list with the Python 3.12 reference requirements.
+torch==2.9.1
+numpy==2.3.5
+pandas==3.0.1
+# Present in the validation environment; pandas can use it for string columns.
+pyarrow==23.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+lightgbm==4.6.0
+catboost==1.2.10
+transformers==5.0.0
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface-hub==1.3.3

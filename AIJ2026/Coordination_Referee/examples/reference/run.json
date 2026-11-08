@@ -1,0 +1,27 @@
+{
+  "purpose": "Functional reference on a small public demo split. Not an independent benchmark or an official score.",
+  "platform": "Windows x86-64",
+  "python": "3.13.9",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "environment": "../../environment/requirements-smoke.txt",
+  "profile": "supplied-only",
+  "jobs": 4,
+  "lm_token_budget": 8192,
+  "input_sha256": {
+    "train.csv": "f063b7c23fe8a14e8771eb2e1d8f92562dfb284e7780552c200942f113316cb3",
+    "test.csv": "c2842ad6a2ded1f1b7a81bc47c7dd43f86c3fbb64876876f1a20f71fe34ecd16",
+    "truth.csv": "5db5e671c658d01e7177caae0b9ad003cd00c404aa01193a02905bda35c270bc"
+  },
+  "predictions_sha256": "50590a6af28696d843ed34aa3378399f0a5b8ddee734508b9f84194b962bfa09",
+  "model_log_excerpts": [
+    "lm_infer: done 35 runs, 2 members, 8s",
+    "[    7.6s] pseudo-labelling: 22 / 35 test runs with p >= 0.90",
+    "[   33.8s] v45_v46 catboost arm=v46_ensemble real_rows=560 folds=5",
+    "[   45.1s] v55 cset arm=conditional_logpool real_rows=560 members=5 epochs=8",
+    "[   45.1s] candidate-set add-on (train): success blended (w=0.50), 1 fault turns moved, 1 labels re-pooled outside the arbiter table, 9s",
+    "[   45.1s] LM member (w=0.20, a=0.00): argmax moved on 4 runs, 3 labels changed, waited 0s",
+    "[   45.1s] resid final pass (gate=all, turn rules=True): {'gate:dropped_handoff': 1}",
+    "Checked prediction schema, labels, turns and coverage for 35 runs."
+  ],
+  "full_4000_row_demo_rerun_for_this_delivery": false
+}
