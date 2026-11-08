@@ -2,6 +2,8 @@
 
 [🚀 查看 CampusMatch Demo 与复现说明](https://github.com/swj-stone/GOAI/tree/campusmatch-demo/demo)
 
+**中文** / [English](https://github.com/swj-stone/Competition/blob/main/GOAI2026/README_EN.md)
+
 ## 项目简介
 
 CampusMatch 是面向高校就业服务中心与在校学生的证据驱动型多 Agent 求职辅助平台。
